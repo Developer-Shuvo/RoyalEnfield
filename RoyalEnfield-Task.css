@@ -56,20 +56,30 @@
      }
      
      .Parents-banner {
-         height: 660px;
          width: 100%;
+         height: 100%;
          background-image: url(./images/banner1.png);
          background-repeat: no-repeat;
-         background-size: contain;
+         background-size: cover;
      }
      
      .children {
-         height: 100%;
-         width: 100%;
-         display: flex;
+         /* height: 100%; */
+         /* display: flex;
          justify-content: center;
          align-items: end;
-         background-color: #00000031;
+         background-color: #00000031; */
+         width: 1700px;
+         height: 700px;
+         display: table-cell;
+         box-sizing: border-box;
+         background: linear-gradient(to right, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0) 100%);
+         font-size: 14px;
+         font-family: montserrat-regular;
+         font-weight: 400;
+         text-align: left;
+         line-height: 0px;
+         color: rgb(33, 37, 41);
      }
      
      @import url("https://fonts.googleapis.com/css?family=Raleway");
@@ -83,13 +93,6 @@
          box-sizing: border-box;
      }
      
-     html,
-     body {
-         height: 100%;
-         width: 100%;
-         overflow: hidden;
-     }
-     
      .btn {
          padding: 15px 24px;
          font-weight: 600;
@@ -98,6 +101,58 @@
      }
      
      .btn:hover {
-         background-color: red;
+         background-color: rgb(46, 220, 15);
          transition: all;
+     }
+     
+     .slider-section {
+         display: flex;
+         margin-bottom: 40px;
+     }
+     
+     .slide-title {
+         width: 100%;
+         height: 57.9907px;
+         padding: 15px 0px;
+         display: block;
+         box-sizing: border-box;
+         background: rgb(33, 33, 33);
+         font-size: 24px;
+         font-family: var(--glow-color);
+         font-weight: 500;
+         text-align: center;
+         /* line-height: 28px; */
+         color: rgb(255, 255, 255);
+     }
+     
+     .hunter-image {
+         width: 100%;
+         height: 100%;
+     }
+     
+     .image-section {
+         width: 422px;
+         height: 267px;
+         position: relative;
+         transition: transform 0.5s ease-in-out;
+         /* Smooth transition effect */
+     }
+     
+     .image-section:hover {
+         transform: scale(0.9);
+         /* Zoom in by 20% */
+     }
+     
+     .bike-title {
+         width: 100%;
+         text-align: center;
+         font-size: 18px;
+         font-family: var(--glow-color);
+         font-weight: 900;
+         position: absolute;
+         color: white;
+         /* Adds some space between the image and the title */
+         /* Adds a background to make the text more readable */
+         padding: 5px;
+         top: 225px;
      }
