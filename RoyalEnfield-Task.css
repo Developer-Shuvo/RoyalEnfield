@@ -1,0 +1,103 @@
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     
+     .containers {
+         width: 100%;
+         margin: 0 auto;
+     }
+     
+     .nav-container {
+         position: fixed;
+         padding: 30px;
+         /* Add this line */
+         top: 0;
+         /* Add this line */
+         width: 100%;
+         /* Ensure the width spans the full viewport */
+         display: flex;
+         background: #0a0a0a;
+         margin-top: 0px;
+         justify-content: space-between;
+         align-items: center;
+         z-index: 1000;
+         height: 72px;
+         /* Add this line to ensure the navbar is above other elements */
+     }
+     
+     .images {
+         width: 200px;
+         height: 26.7955px;
+         display: block;
+         box-sizing: border-box;
+         font-size: 14px;
+         font-family: montserrat-regular;
+         font-weight: 400;
+         text-align: left;
+         line-height: 18px;
+         color: rgb(0, 0, 0);
+     }
+     
+     .list-item {
+         display: flex;
+         gap: 20px;
+         list-style: none;
+         font-size: large;
+         font-family: fantasy;
+         text-transform: uppercase;
+         cursor: pointer;
+         color: white;
+     }
+     
+     .li-parents {
+         display: flex;
+     }
+     
+     .Parents-banner {
+         height: 660px;
+         width: 100%;
+         background-image: url(./images/banner1.png);
+         background-repeat: no-repeat;
+         background-size: contain;
+     }
+     
+     .children {
+         height: 100%;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: end;
+         background-color: #00000031;
+     }
+     
+     @import url("https://fonts.googleapis.com/css?family=Raleway");
+      :root {
+         --glow-color: hsl(186 100% 69%);
+     }
+     
+     *,
+     *::before,
+     *::after {
+         box-sizing: border-box;
+     }
+     
+     html,
+     body {
+         height: 100%;
+         width: 100%;
+         overflow: hidden;
+     }
+     
+     .btn {
+         padding: 15px 24px;
+         font-weight: 600;
+         background: white;
+         color: black;
+     }
+     
+     .btn:hover {
+         background-color: red;
+         transition: all;
+     }
