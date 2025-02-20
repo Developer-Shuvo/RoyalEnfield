@@ -134,8 +134,9 @@
      }
      
      .btn:hover {
-         background-color: rgb(46, 220, 15);
+         background-color: lime;
          transition: all;
+         cursor: pointer;
      }
      
      .slider-section {
@@ -198,14 +199,13 @@
          padding: 15px 0px;
          display: block;
          box-sizing: border-box;
-         background: rgba(2, 125, 113, 0.863);
-         border: 2px solid rgb(7, 112, 110);
+         background: black;
          font-size: 16px;
          font-family: var(--glow-color);
          font-weight: 300px;
          text-align: center;
          /* line-height: 28px; */
-         color: black
+         color: white;
      }
      
      .service-heading {
